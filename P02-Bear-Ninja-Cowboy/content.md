@@ -20,20 +20,15 @@ If you don't already have one, navigate to the root of your computer, to the `~`
 In that directory make a new file called `bnc.py`.
 
 ```bash
-$ cd ~
-$ mkdir code
-$ cd code
 $ mkdir cli-games
 $ cd cli-games
 $ touch bnc.py
 ```
 
-# Open the Directory in Atom
-
-Using the [atom text editor](https://atom.io/) open the `cli-games` directory using the `atom` command:
+# Open the Directory in VSCode
 
 ```
-$ atom .
+$ code .
 ```
 
 # Getting CLI Input
