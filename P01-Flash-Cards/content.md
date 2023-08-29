@@ -20,9 +20,7 @@ If you don't already have one, navigate to the root of your computer, to the `~`
 Make your initial project folder and two main files:
 
 ```bash
-$ cd ~
-$ mkdir code
-$ cd code
+$ cd to/your/code/directory
 $ mkdir cli-games
 $ cd cli-games
 $ mkdir flash-cards
@@ -59,19 +57,15 @@ $ git init -b main
 $ gh repo create python-cli-games-tutorial
 ```
 
-# Open the Directory in Atom
+# Open the Directory in VSCode
 
-Now let's get started coding. To code we will use the code editor Atom. If you don't already have this code editor, head over to the [Atom website](https://atom.io/) and download and install it.
-
-You can use Atom like any other word processor you are used to, but you can also use it from the command line to open a single file or a whole project folder.
-
-Let's try using the command line command `atom .` to open the directory we are currently in. Make sure you have navigated to the `flash-cards` directory, then type the following:
+Let's try using the command line command `code .` to open the directory we are currently in. Make sure you have navigated to the `flash-cards` directory, then type the following:
 
 ```
-(flash-cards)$ atom .
+(flash-cards)$ code .
 ```
 
-**Clarification** - The period (`.`) in `atom .` means "this directory". You can also open a project using a path, e.g. from the root `~` type the command `$ atom code/cli-games`
+**Clarification** - The period (`.`) in `code .` means "this directory". You can also open a project using a path, e.g. from the root `~` type the command `$ code code/cli-games`
 
 # Make a Plan
 
@@ -97,12 +91,6 @@ Otherwise, make sure you are in the main directory of the project and run the fo
 ```bash
 $ python3 -m venv env
 $ source env/bin/activate
-```
-
-Remember to install your requirements if there is a `requirements.txt` file (not applicable to this tutorial)
-
-```bash
-$ pip3 install -r requirements.txt
 ```
 
 # Setting Up Card Data
