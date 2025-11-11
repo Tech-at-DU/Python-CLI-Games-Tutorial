@@ -365,6 +365,8 @@ Commit your changes to GitHub. Feel free to use a custom message of your own, as
 $ git add . && git commit -m "completed 'bear, ninja, cowboy' game'" && git push
 ```
 
+<!--
 # Next Steps
 
 Almost done! Click [here](../P03-ASCII-Art/content.md) to move onto the next section about ASCII Art.
+-->
